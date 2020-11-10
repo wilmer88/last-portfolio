@@ -1,4 +1,5 @@
 import React from 'react';
+import "./AboutContainer.css"
 //import me from "./public/images/me.jpg"
 const AboutContainer = () => {
   return (
