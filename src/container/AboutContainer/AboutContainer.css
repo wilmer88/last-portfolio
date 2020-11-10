@@ -1,0 +1,23 @@
+.row2 {
+    background-color: gray;
+  }
+  body {
+    /* background-color: maroon; */
+  
+    background-color: gray;
+  }
+  .nameandbackground:hover {
+    border-radius: 8px;
+    background-color: gold;
+  }
+  .nameandbackground {
+    background-color: rgb(250, 219, 148);
+    padding: 12px;
+    font-weight: 900;
+    border-radius: 8px;
+  }
+  
+  .row2 {
+    background-color: gray;
+  }
+  
