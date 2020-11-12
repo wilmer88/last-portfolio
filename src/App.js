@@ -5,12 +5,12 @@ import AboutContainer from "./container/AboutContainer/AboutContainer"
  function App() {
    
   return (
-    useEffect(() => {
-      console.log("make an API call")
-    }, []),
+    // useEffect(() => {
+    //   console.log("make an API call")
+    // }, []),
     <div className="App">
      <AboutContainer/>
-     {/* <Portfolio /> */}
+     <Portfolio />
     </div>
   );
 }
