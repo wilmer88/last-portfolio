@@ -2,20 +2,13 @@ import AboutContainer from "./container/AboutContainer/AboutContainer"
  import Portfolio from "./container/Portfolio/Portfolio.jsx"
  import{useEffect} from "react";
 
- function App() {
-   
-  return (
-    // useEffect(() => {
-    //   console.log("make an API call")
-    // }, []),
-    <div className="App">
-     <AboutContainer/>
-     <Portfolio />
-    </div>
-  );
-}
+  // Setting this.state.friends to the friends json array
 
-export default App;
-
-
-
+ 
+ const App = () => {
+   return (
+    <Portfolio/>
+   );
+ };
+ 
+ export default App;
