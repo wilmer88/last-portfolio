@@ -1,5 +1,7 @@
 import React from 'react';
-import "./AboutContainer.css"
+import "./AboutContainer.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Link } from 'react-router-dom';
 //import me from "./public/images/me.jpg"
 const AboutContainer = () => {
   return (
@@ -63,7 +65,53 @@ const AboutContainer = () => {
           <div class="modal-dialog modal-lg">email: wilmerbaby@gmail.com</div>
           <div class="modal-dialog modal-sm">LinkedIn Profile: <a href="https://www.linkedin.com/in/wilmer-rivera-0536291b3">click here</a></div>
           <div class="modal-dialog modal-sm">Git Hub Profile: <a href="https://github.com/wilmer88">click here</a></div>
-          
+          <div class="card"/>
+                  <link src="../../assets/images/one.png" class="card-img-top" alt="pic of gt project"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Day Planner</h5>
+                    <p class="card-text">deployed URL: <Link href={"https://wilmer88.github.io/due-date-jquery/"}>click here</Link></p>
+                   <p class="card-text">github URL: <Link href={"https://github.com/wilmer88/due-date-jquery"}>click here</Link></p>
+                   </div>
+                   <link src="assets/images/one.png" class="card-img-top" alt="pic of gt project"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Note Taker</h5>
+                    <p class="card-text">deployed URL: <Link href={"https://noty-note.herokuapp.com/"}>click here</Link></p>
+                   <p class="card-text">github URL: <Link href={"https://github.com/wilmer88/noty-note"}>click here</Link></p>
+                   </div>
+                   <link src="assets/images/one.png" class="card-img-top" alt="pic of gt project"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Readme Generator</h5>
+                    <p class="card-text">deployed URL: <Link href={"https://drive.google.com/file/d/1MPDk5yJzGW1qYmHzdwifFII0VJG_EFlK/view"}>click here</Link></p>
+                   <p class="card-text">github URL: <Link href={"https://github.com/wilmer88/leer-node-readme"}>click here</Link></p>
+                   </div>
+                   <link src="assets/images/one.png" class="card-img-top" alt="pic of gt project"/>
+                  <div class="card-body">
+                    <h5 class="card-title">budget-pwq</h5>
+                    <p class="card-text">deployed URL: <Link href={"https://budget-keepup.herokuapp.com/"}>click here</Link></p>
+                   <p class="card-text">github URL: <Link href={"https://github.com/wilmer88/budget-pwq"}>click here</Link></p>
+                   </div>
+                   <link src="assets/images/one.png" class="card-img-top" alt="pic of gt project"/>
+                  <div class="card-body">
+                    <h5 class="card-title">Employee directory</h5>
+                    <p class="card-text">deployed URL: <Link href={"https://wilmer88.github.io/directory-react/"}>click here</Link></p>
+                   <p class="card-text">github URL: <Link href={"https://github.com/wilmer88/directory-react"}>click here</Link></p>
+                   </div>
+
+                  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
         
       </div>
