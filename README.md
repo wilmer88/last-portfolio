@@ -3,7 +3,7 @@
 A BCS asignment, was asked to use my existing portfolio with just plain html and css and turned that code in to a react app.
 was able to produce one  basic about page with cantact info and links to linked in and git hub. 
 when testing the page and runing npm start two windows open insted of just one.
-also switch router method is broken in aplication the code most of the code is good just a bug in my app causing the react-router-dom causing compile isues, 
+the switch router method is broken in aplication code, most of the code is works, just a bug in my app causing the react-router-dom to cause compile isues, 
 
 
 did several rebuilds without success.
