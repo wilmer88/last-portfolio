@@ -1,0 +1,36 @@
+function App() {
+  return (
+    <Router>
+      <div>
+      <Container className="p-0" fluid={true}>
+          <Navbar className="border-bottom">
+            <Navbar.Brand>Portfolio</Navbar.Brand>
+            <Navbar.Toggle aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle" />
+            <Nav>
+              <link className="nav-link" to="/">
+                about
+              </link>
+              <link className="nan-link" to="/portfolio">
+                portfolio
+              </link>
+            </Nav>
+            <Navbar.Collapse />
+          </Navbar>
+        </Container>
+      </div>
+    </Router>
+  );
+}
+
+export default App;
+
+
+
+// import AboutContainer from "./container/AboutContainer/AboutContainer"
+//  import Portfolio from "./container/Portfolio/Portfolio.jsx"
+import React from "react";
+import { BrowserRouter as Router, Rout, Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav"
