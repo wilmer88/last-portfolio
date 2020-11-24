@@ -2,17 +2,17 @@ import React from 'react';
 import "./AboutContainer.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Link } from 'react-router-dom';
-//import me from "./public/images/me.jpg"
+
+
 const AboutContainer = () => {
   return (
     <div>
        <body>
-        <div className="container-fluid">
+       <div className="container-fluid">
     <nav className="navbar sticky-top navbar-light bg-light">
       {/* <link className="navbar-brand" href="portfolio.html"/>
         <span className="nameandbackground"><span>See Portfolio</link></span> */}
     </nav>
-
    
     <div className="offset-md-1 col-md-5 bg-light mt-5"></div>
     <div className="container-fluid">
@@ -42,7 +42,7 @@ const AboutContainer = () => {
           </div>
          
           <img
-            src="./public/images/me.png"
+            src="/last.png"
             class="profilepic"
             alt="foto of wilmer rivera"
           />
